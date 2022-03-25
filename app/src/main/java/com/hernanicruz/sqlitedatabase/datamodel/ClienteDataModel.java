@@ -8,9 +8,9 @@ public class ClienteDataModel {
 
     //2- Atributos
 
-    private static final String ID = "id";
-    private static final String NOME = "nome";
-    private static final String EMAIL = "email";
+    public static final String ID = "id";
+    public static final String NOME = "nome";
+    public static final String EMAIL = "email";
 
     //3- Consulta banco
 
