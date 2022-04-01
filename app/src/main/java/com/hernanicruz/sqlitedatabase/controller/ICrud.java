@@ -6,7 +6,7 @@ public interface ICrud<T> {
 
     public boolean incluir(T obj);
     public boolean alterar(T obj);
-    public boolean deletar(int id);
+    public boolean deletar(String tabela, int id);
     public List<T> listar();
 
 }

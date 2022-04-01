@@ -16,7 +16,7 @@ public class ProdutoController implements ICrud{
     }
 
     @Override
-    public boolean deletar(int id) {
+    public boolean deletar(String tabela, int id) {
         return false;
     }
 
